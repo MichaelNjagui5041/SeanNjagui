@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Practice Extra Credit</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+/* Put your CSS styles below */
+
+    
+    
+    
+    
+    /*The CSS below needs to stay here. Don't touch it if you want your page to work.  See note below for the one item that can be removed. */
+    /* If you want to change the colors of the boxes those colors are on line 40,48,abd 54.  Feel free to change those. */
+ * 
+{
+  box-sizing: border-box;
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px)
+{
+  .column.side, .column.middle
+    {
+    width: 100%;
+     }
+ }
+    /* Create three unequal columns that floats next to each other */
+.column
+{
+  float: left;
+  padding: 10px;
+  height: 300px; /* This one can be removed.  It creates a container for your test. But can be removed when you add text. Only for demonstration to force a big box to appear.*/
+}
+
+/* Left column */
+.column.sideleft 
+{
+  width: 25%;
+  background-color:#edafb8;
+  overflow: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Middle column */
+.column.middle
+{
+  width: 50%;
+  background-color:#be95c4;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* right column */
+.column.sideright
+{
+  width: 25%;
+ background-color:#9f86c0;
+ font-family: monospace;
+}
+
+/* Clear floats after the columns */
+.row:after
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+    
+</style>
+</head>
+<body>
+
+<h2>CSS Template Extra Credit</h2>
+
+<p> This is a page about my favorite movies, foods, and more. </p>
+    
+<!-- The header section --> 
+<div>
+  <h2>Michael Njagui</h2>
+</div>
+
+ <div > <!-- The subheader section --> 
+  <h3>This is my first CSS web page with CSS! </h3>
+</div>
+<div>
+    <!-- The first column --> 
+	<div class="column sideleft">
+	<p> My Favorite Foods </p>
+		<!-- Create a list here of 5 of your favorite foods-->
+     <ol>
+     <li>Tacos</li>
+     <li>Burgers and Fries</li>
+     <li>Mediterranean food</li>
+     <li>Ceaser Salad</li>
+     <li>Pilau</li>
+     </ol>
+	</div>
+    
+     <!-- The second column --> 
+	<div class="column middle">
+	<p>5 facts about you </p>
+	<!-- Create a list here of 5 facts about you. You can include movies, hobbies, etc.-->
+   <ul>
+    <li>Favourite movie is Toy Story</li>
+    <li>My hobbies include making art, gaming and Muay Thai</li>
+    <li>I am an ameture figher</li>
+    <li>I love Pro Wrestling and UFC</li>
+    <li>I love researching on ancient civilizations</li>
+   </ul>
+
+	</div>
+    
+     <!-- The third column --> 
+	<div class="column sideright">
+  	<p>What do you want to do after JCCC?</p>
+	<!-- Create a paragraph or list of things you want to do after you leave JCCC-->
+   <p>After JCCC I want to get into tattooing and apply web design in the same field as well.</p>
+	</div>
+</div>
+
+     <!-- The footer section --> 
+<div >
+  <p>mnjagui@stumail.jccc.edu 25/9/2025.</p>
+</div>
+
+</body>
+</html>
+
+

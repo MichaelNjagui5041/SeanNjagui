@@ -1,0 +1,46 @@
+.h1{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #0d2818;
+}
+
+.h2{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #192a51;
+}
+
+h3{
+    font-weight: bold;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #000000;
+}
+
+.h4{
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #023e7d;
+}
+
+.h5{
+    font-style: oblique;
+    font-weight: bold;
+    font-family: cursive;
+    color: #002855;
+}
+
+.footer{
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    color: #001845;
+}
+
+body.background{
+    background: url(coverart.jpg);
+    background-repeat: no-repeat;
+    background-size: 1000px 500px;
+
+    
+}
